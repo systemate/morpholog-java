@@ -1,7 +1,7 @@
 Morpholog-Java
 ==============
 
-Mopholog-Java - клиент для сервиса Системэйт [Morpholog](http://systemate.ru/services/morpholog).
+Mopholog-Java - клиент для сервиса Системэйт [Morpholog](http://systemate.ru/products/morpholog).
 
 Сервис предназначен для работы со следующими правила русского языка:
 * Склонение (Ф.И.О., произвольных фраз, топонимов);
@@ -22,4 +22,4 @@ Mopholog-Java доступен на Maven Central.
 </dependency>
 ```
 
-![Morpholog](https://raw.github.com/systemate/morpholog-js/master/img/logo.png)
+![Morpholog](http://systemate.ru/img/products/morpholog.png)
