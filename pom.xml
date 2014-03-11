@@ -45,7 +45,25 @@
         <url>https://github.com/systemate/morpholog-java/issues</url>
     </issueManagement>
 
+    <!-- FOR Native client testing
+    <repositories>
+        <repository>
+            <id>systemate-repo</id>
+            <url>${env.S8_REPO}/releases</url>
+        </repository>
+    </repositories>
+    -->
+
     <dependencies>
+
+        <!-- FOR Native client testing
+        <dependency>
+            <groupId>ru.systemate.morpholog</groupId>
+            <artifactId>morpholog-core</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        -->
 
         <!-- S1-Platform -->
         <dependency>

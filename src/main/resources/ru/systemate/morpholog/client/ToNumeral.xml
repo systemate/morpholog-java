@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:mor="http://service.systemate.ru/morpholog/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <mor:${action}>
+            <Number>${num}</Number>
+            <Case>${wordCase}</Case>
+            <Gender>${gender}</Gender>
+            <Live>${live}</Live>
+        </mor:${action}>
+    </soapenv:Body>
+</soapenv:Envelope>
