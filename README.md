@@ -1,5 +1,4 @@
-Morpholog-Java
-==============
+# Morpholog-Java [![Build Status](https://travis-ci.org/systemate/morpholog-java.png?branch=master)](https://travis-ci.org/systemate/morpholog-java)
 
 Mopholog-Java - клиент для сервиса Системэйт [Morpholog](http://systemate.ru/products/morpholog).
 

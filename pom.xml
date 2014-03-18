@@ -44,6 +44,10 @@
         <system>GitHub Issue Management</system>
         <url>https://github.com/systemate/morpholog-java/issues</url>
     </issueManagement>
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/systemate/morpholog-java/</url>
+    </ciManagement>
 
     <!-- FOR Native client testing
     <repositories>
