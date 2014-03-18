@@ -15,7 +15,7 @@ import ru.systemate.morpholog.client.MorphologClient;
 public class TestClient extends BasicTest {
 
     public void testDeclinePhrase(){
-        int p = 1;
+        int p = 10;
         title("Decline phrase, parallel: "+p);
         assertEquals(p, LoadTestUtils.run("test",p,p,new Closure<Integer, Object>() {
             @Override
@@ -32,7 +32,7 @@ public class TestClient extends BasicTest {
     }
 
     public void testGetGender(){
-        int p = 1;
+        int p = 10;
         title("Get gender, parallel: "+p);
         assertEquals(p, LoadTestUtils.run("test",p,p,new Closure<Integer, Object>() {
             @Override
